@@ -169,4 +169,4 @@ def set_tool()
   Sketchup.active_model.select_tool(ts)
 end
 
-set_tool
+#set_tool

@@ -29,4 +29,8 @@ class PrototypeAptBlock < BuildingBlock
     #@updators << BH_Parapet.new(gp,self)
   end
 
+  def updators
+    @updators
+  end
+
 end

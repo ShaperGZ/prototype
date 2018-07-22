@@ -1,7 +1,8 @@
 
-path='C:/SketchupRuby/PrototypeTestEnvironment/'
+# path='C:/SketchupRuby/PrototypeTestEnvironment/'
+path='d:/SketchupRuby/prototype/'
 
-load 'arch_util_apdx_face_constraints.rb'
+load path+'arch_util_apdx_face_constraints.rb'
 
 load path+'prototype.rb'
 load path+'bh_apt_face_constraint.rb'

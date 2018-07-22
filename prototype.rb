@@ -51,7 +51,7 @@ class Prototype
   end
 
   def read_csv_params()
-    params=CSV.read('c:\SketchupRuby\Params.csv' )
+    params=CSV.read('d:\SketchupRuby\prototype\Params.csv' )
     for i in 1..params.size
       l=params[i]
       break if l ==nil
